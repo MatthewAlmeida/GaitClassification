@@ -19,8 +19,9 @@ if __name__ == "__main__":
     # logarithm before z-score normalization.
     # -----
 
-    X_COLS = [ u'Age_At_Visit', u'Over_85',u'Edu_No_HS', u'Edu_HS', u'Edu_Col',
-       u'At_Gender',u'Race_White', u'Race_Black', u'Race_Other',u'Gait_Spd', 
+    X_COLS = [u'Over_85',u'Edu_No_HS', u'Edu_HS', u'Edu_Col',
+       u'At_Gender',u'Race_White', u'Race_Black', u'Race_Other', u'Age_At_Visit',
+       u'Gait_Spd', 
        u'Cadence', u'Step_LenL', u'Step_LenR', u'Step_TimeL', u'Step_TimeR',  
        u'Stride_TimeL', u'Stride_TimeR', u'Stance_TimeL', u'Stance_TimeR', 
        u'Swing_TimeL', u'Swing_TimeR', u'DblSupp_TimeL', u'DblSupp_TimeR', u'Asymmetry',
